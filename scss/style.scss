@@ -1,0 +1,19 @@
+@use 'custom' as bootstrap;
+
+//IMPORT THE COMPONENETS
+
+@use 'components/animations.scss';
+@use 'components/buttons.scss';
+@use 'components/mixins.scss';
+@use 'components/typography.scss';
+
+//IMPORT SECTIONS
+@use 'sections/navbar';
+@use 'sections/intro-section.scss';
+@use 'sections/companies';
+@use 'sections/services';
+@use 'sections/testimonials';
+@use 'sections/faq';
+@use 'sections/portfolio';
+@use 'sections/get-started';
+@use 'sections/footer';
